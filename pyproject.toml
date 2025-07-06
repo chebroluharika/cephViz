@@ -1,0 +1,20 @@
+[project]
+name = "cephviz"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.11.*"
+dependencies = [
+    "argparse>=1.4.0",
+    "bcrypt>=4.3.0",
+    "huggingface-hub>=0.30.2",
+    "langchain>=0.3.25",
+    "langchain-huggingface>=0.1.2",
+    "pymongo>=4.12.1",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
