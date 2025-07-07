@@ -7,7 +7,7 @@ import time
 from datetime import datetime
 
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + "/.."))
-import agent
+import src.agents.cephviz.src.cephviz.agent as agent
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from backend import session_manager
